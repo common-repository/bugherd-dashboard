@@ -1,0 +1,84 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+#dashboard_bugherd_widget li {
+width: 50%;
+float: left;
+margin-bottom: 10px;
+}
+
+#dashboard_bugherd_widget .note{
+	clear:both;
+}
+
+#dashboard_bugherd_widget li i:before, #dashboard_bugherd_widget li i:before {
+content: '\f159';
+font: 400 20px/1 dashicons;
+speak: none;
+display: block;
+float: left;
+margin: 0 5px 0 0;
+padding: 0;
+text-indent: 0;
+text-align: center;
+position: relative;
+-webkit-font-smoothing: antialiased;
+text-decoration: none!important;
+}
+
+#dashboard_bugherd_widget .issue-backlog i:before {
+content: "\f238";
+}
+#dashboard_bugherd_widget .issue-archive i:before {
+content: "\f313";
+}
+#dashboard_bugherd_widget .issue-todo i:before {
+content: "\f226";
+}
+#dashboard_bugherd_widget .issue-doing i:before {
+content: "\f311";
+}
+#dashboard_bugherd_widget .issue-done i:before {
+content: "\f147";
+}
+
+.issues .priority-0 td, .issues .priority-0 th {
+background-color: #f7fcfe;
+}
+.issues .priority-0 th {
+border-left: 4px solid #ccc;
+}
+
+.issues .priority-1 td, .issues .priority-1 th {
+background-color: #f7fcfe;
+}
+.issues .priority-1 th {
+border-left: 4px solid #d46060;
+}
+
+.issues .priority-2 td, .issues .priority-2 th {
+background-color: #f7fcfe;
+}
+.issues .priority-2 th {
+border-left: 4px solid #e8b019;
+}
+
+.issues .priority-3 td, .issues .priority-3 th {
+background-color: #f7fcfe;
+}
+.issues .priority-3 th {
+border-left: 4px solid #60c5d4;
+}
+
+.issues .priority-4 td, .issues .priority-4 th {
+background-color: #f7fcfe;
+}
+.issues .priority-4 th {
+border-left: 4px solid #2ea2cc;
+}
+
+.issues .priority-5 td, .issues .priority-5 th {
+background-color: #f7fcfe;
+}
+.issues .priority-5 th {
+border-left: 4px solid #2ea2cc;
+}
